@@ -1,7 +1,7 @@
 """
 multiplication-table.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Earl
+Credit: Sam
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -21,3 +21,15 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
+
+for a in range(1,9):
+    for b in [(a*2)]:
+        for c in [(a*3)]:
+             for d in [(a*4)]:
+                  for e in [(a*5)]:
+                       for f in [(a*6)]:
+                            for g in [(a*7)]:
+                                 for h in [(a*8)]:
+                                      for i in [(a*9)]:
+                                           for k in [(a*10)]:
+                                                print(a,b,c,d,e,f,g,h,i,k)
