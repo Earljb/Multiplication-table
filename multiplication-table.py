@@ -21,16 +21,11 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
+Width=input("Width of multiplication table: ")
+Height=input("Height of multiplication table: ")
+x=int(Width)+1
+y=int(Height)+1
 
-for a in range(1,9):
-    for b in [(a*2)]:
-        for c in [(a*3)]:
-             for d in [(a*4)]:
-                  for e in [(a*5)]:
-                       for f in [(a*6)]:
-                            for g in [(a*7)]:
-                                 for h in [(a*8)]:
-                                      for i in [(a*9)]:
-                                           for k in [(a*10)]:
-                                                print(a,b,c,d,e,f,g,h,i,k)
-                                                print(int("a,b,c,d,e,f,g,h,i,k").format(a,b,c,d,e,f,g,h,i,k))
+for a in range(1,x):
+    for b in range(1,y):
+        print(a*b)
