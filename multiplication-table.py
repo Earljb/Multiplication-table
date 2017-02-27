@@ -32,5 +32,5 @@ for a in range(1,9):
                                  for h in [(a*8)]:
                                       for i in [(a*9)]:
                                            for k in [(a*10)]:
-                                                print(a,b,c,d,e,f,g,h,i,k) 
-                                                    print(format(abcdefghik))
+                                                print(a,b,c,d,e,f,g,h,i,k)
+                                                print(int("a,b,c,d,e,f,g,h,i,k").format(a,b,c,d,e,f,g,h,i,k))
